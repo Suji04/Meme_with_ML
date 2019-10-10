@@ -3,7 +3,6 @@ import cv2
 from matplotlib import pyplot as plt
 
 face_cascade = cv2.CascadeClassifier('haarcascade_frontalface_default.xml')
-eye_cascade = cv2.CascadeClassifier('haarcascade_eye.xml')
 
 glass = cv2.imread('glasses.png',-1) # png images have alpha channel
 img = cv2.imread('1.jpg')
